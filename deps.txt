@@ -1,0 +1,3 @@
+light (arch-aur for screen brightness)
+pamixer (for volume)
+NetworkManager (wifi)
