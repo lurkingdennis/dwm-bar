@@ -31,7 +31,7 @@ dwm_alsa () {
         	fi
         fi
     fi
-    printf "%s \n" "$SEP2"
+    printf "%s\n" "$SEP2"
 }
 
 dwm_alsa

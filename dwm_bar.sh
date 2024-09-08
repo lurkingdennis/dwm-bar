@@ -23,12 +23,12 @@ export SEP2=" "
 
 # Import the modules
 . "$DIR/bar-functions/dwm_alsa.sh"
-. "$DIR/bar-functions/dwm_backlight.sh"
+#. "$DIR/bar-functions/dwm_backlight.sh"
 . "$DIR/bar-functions/dwm_battery.sh"
 . "$DIR/bar-functions/dwm_bluetooth.sh"
 . "$DIR/bar-functions/dwm_date.sh"
 . "$DIR/bar-functions/dwm_networkmanager.sh"
-. "$DIR/bar-functions/dwm_cmus.sh"
+#. "$DIR/bar-functions/dwm_cmus.sh"
 
 parallelize() {
     while true
@@ -46,9 +46,9 @@ while true
 do
     # Append results of each func one by one to the upperbar string
     upperbar=""
-    upperbar="$upperbar$(dwm_cmus)"
+#    upperbar="$upperbar$(dwm_cmus)"
     upperbar="$upperbar$(dwm_alsa)"
-    upperbar="$upperbar$(dwm_backlight)"
+#    upperbar="$upperbar$(dwm_backlight)"
     upperbar="$upperbar$(dwm_bluetooth)"
     upperbar="$upperbar$(dwm_networkmanager)"
     upperbar="$upperbar$(dwm_battery)"
